@@ -1,1 +1,19 @@
-// Write a C program that calculates the factorial of a given number using a do-while loop.
+#include<stdio.h>
+int main(){
+    int a;
+    int i;
+    int fact=1;
+    printf("Enter a number");
+    scanf("%d",&a);
+    i=a;
+    do
+    {
+        fact=fact*i;
+        i--;
+    } while (i>0);
+    printf("%d",fact);
+    
+    return 0;
+    
+
+}
